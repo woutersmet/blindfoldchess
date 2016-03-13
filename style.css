@@ -1,0 +1,26 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.block {
+    background:#fafafa;
+    border-radius:5px;
+    text-align:center;
+    margin:10px;
+    padding:5px 10px;
+}
+
+/* chessboard */
+.brd-container {border:2px solid #444;display:inline-block;perspective:500px;}
+
+.brd-sq {height:50px;width:50px;font-size:25px;text-align:center;}
+.brd-row-ev .brd-sq-ev, .brd-row-un .brd-sq-un {background:#853;}
+.brd-row-ev .brd-sq-un,.brd-row-un .brd-sq-ev {background:#ffd;}
+.sq-selected {border:3px solid red;}
+
+.piece {cursor:move;}
